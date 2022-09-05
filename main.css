@@ -1,0 +1,36 @@
+:root {
+    --primary-color: #25274d;
+    --text-color: #aaabb8;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    border: 2px black solid;
+    padding: 100px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    margin: 7px;
+    width: 95%;
+}
+
+.container button a {
+    text-decoration: none;
+    color: #fff;
+}
